@@ -54,7 +54,7 @@ pnpm dev
 bun dev
 ```
 
-5. Open your browser and visit `http://localhost:3000` to see your new Next.js project in action.
+6. Open your browser and visit `http://localhost:3000` to see your new Next.js project in action.
 
 ## Contributing
 
