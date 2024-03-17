@@ -3,7 +3,7 @@
 This Next.js template, created by Edward Hyde, is designed to kickstart your Next.js projects with essential dependencies and a foundation for building modern web applications using TypeScript. Simply run the following command to generate a new project:
 
 ```bash
-npx @edward-hyde/template-next PROJECT-NAME
+npx @edward-hyde/template-next
 ```
 
 ## Features
@@ -32,7 +32,7 @@ To create a new project using this template, follow these steps:
 2. Run the following command, replacing `PROJECT-NAME` with your desired project name:
 
 ```bash
-npx @edward-hyde/template-next PROJECT-NAME
+npx @edward-hyde/template-next
 ```
 
 3. Once the project is generated, navigate into the newly created directory:
