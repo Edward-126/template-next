@@ -29,19 +29,20 @@ Currently, the template provides one custom component to get you started. You ca
 To create a new project using this template, follow these steps:
 
 1. Open your terminal.
-2. Run the following command, replacing `PROJECT-NAME` with your desired project name:
+2. Run the following command and follow the prompts:
 
 ```bash
 npx @edward-hyde/template-next
 ```
+3. You will be asked to enter a name for your project. Press Enter for the default name 'my-next-app'.
 
-3. Once the project is generated, navigate into the newly created directory:
+4. Once the project is generated, navigate into the newly created directory:
 
 ```bash
 cd PROJECT-NAME
 ```
 
-4. Start the development server:
+5. Start the development server:
 
 ```bash
 npm run dev
