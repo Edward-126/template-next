@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Template by Thilina Rathnayaka (A.K.A Edward Hyde)
+
+This Next.js template, created by Thilina Rathnayaka, is designed to kickstart your Next.js projects with essential dependencies and a modern foundation for building web applications using TypeScript. It has been updated to use the `/src/app` directory structure for better organization.
+
+## Features
+
+### Dependencies
+
+This template includes the following dependencies commonly used in Next.js projects:
+
+- **Tailwind CSS**: A utility-first CSS framework for creating responsive and custom designs with ease.
+- **ShadCn**: A collection of reusable components that can be integrated into your app.
+- **Class Variance Authority**: A library for managing class names with a consistent API.
+- **Lucide React**: A set of customizable, scalable icons.
+
+### TypeScript Support
+
+This template is configured to work with TypeScript, providing type safety and an enhanced development experience.
+
+### Custom Components
+
+The template includes a set of essential components to get you started. These components are ready to be customized and extended to suit your project needs.
 
 ## Getting Started
 
-First, run the development server:
+To create a new project using this template, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Open your terminal.
+2. Run the following command and follow the prompts:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   npx @edward-hyde/template-next
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. You will be asked to enter a name for your project. Press Enter for the default name 'my-next-app'.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Once the project is generated, navigate into the newly created directory:
 
-## Learn More
+   ```bash
+   cd PROJECT-NAME
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+5. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. Open your browser and visit `http://localhost:3000` to see your new Next.js project in action.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you encounter any issues with the template or have suggestions for improvements, feel free to contribute by submitting pull requests or opening issues on the GitHub repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For more information, visit the [GitHub repository](https://github.com/Edward-126/template-next).
+
+---
+
+Contact Me: [Gmail](mailto:edwardhyde20126@gmail.com)
+
+&copy; 2024 Edward Hyde
