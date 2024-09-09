@@ -7,6 +7,7 @@ import {
   Layers,
   LucideFileCog,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -18,24 +19,21 @@ export default function Home() {
               Template-NEXT
             </h1>
             <p className="mx-auto max-w-prose text-base text-muted-foreground md:text-xl">
-              A clean Next.js template with TypeScript, TailwindCSS, and
-              Prettier. Optimized for quick project setup with handy packages.
+              A clean Next.js template with TypeScript, TailwindCSS, Shadcn/ui,
+              and Prettier. Optimized for quick project setup with handy
+              packages.
             </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-              <Link
-                href="#"
-                className="inline-flex items-center justify-center rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 sm:text-base"
-              >
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-              </Link>
-              <Link
-                href="https://its-thilina-blog.vercel.app/blog/template-next-changelog-1"
-                className="inline-flex items-center justify-center rounded-md border border-primary bg-background px-5 py-2.5 text-sm font-medium text-primary transition-colors hover:bg-primary/10 sm:text-base"
-              >
-                Changelog
-                <LucideFileCog className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-              </Link>
+              <Button asChild>
+                <Link href="">
+                  Get Started <ArrowRight className="ml-2 size-5" />
+                </Link>
+              </Button>
+              <Button variant={"outline"} asChild>
+                <Link href="https://its-thilina-blog.vercel.app/blog/template-next-changelog-1">
+                  ChangeLog <LucideFileCog className="ml-2 size-5" />
+                </Link>
+              </Button>
             </div>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="flex items-center space-x-2 rounded-full bg-secondary px-3 py-1 text-sm">
