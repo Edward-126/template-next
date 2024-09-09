@@ -25,7 +25,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               <Button asChild>
-                <Link href="">
+                <Link href="https://its-thilina-blog.vercel.app/blog/template-next-get-started">
                   Get Started <ArrowRight className="ml-2 size-5" />
                 </Link>
               </Button>
