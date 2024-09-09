@@ -30,7 +30,7 @@ export default function Home() {
                 <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
               </Link>
               <Link
-                href="#"
+                href="https://its-thilina-blog.vercel.app/blog/template-next-changelog-1"
                 className="inline-flex items-center justify-center rounded-md border border-primary bg-background px-5 py-2.5 text-sm font-medium text-primary transition-colors hover:bg-primary/10 sm:text-base"
               >
                 Changelog
