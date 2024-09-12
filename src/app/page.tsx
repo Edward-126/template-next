@@ -30,7 +30,7 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant={"outline"} asChild>
-                <Link href="https://its-thilina-blog.vercel.app/blog/template-next-changelog-1">
+                <Link href="https://its-thilina-blog.vercel.app/blog/template-next-changelog-2-6">
                   ChangeLog <LucideFileCog className="ml-2 size-5" />
                 </Link>
               </Button>
