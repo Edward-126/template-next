@@ -55,12 +55,15 @@ To create a new project using this template, follow these steps:
 6. Open your browser and visit `http://localhost:3000` to see your new Next.js project in action.
 
 ## Additional CLI Features
+
 ### Current Directory Cloning
 
 Template-NEXT allows you to clone the template directly into your working directory, useful for adding it to existing project structures. Run:
+
 ```bash
 npx @edward-hyde/template-next .
 ```
+
 The CLI will walk you through the setup process, offering clearer instructions and tailored steps based on your choices.
 
 ## Contributing
