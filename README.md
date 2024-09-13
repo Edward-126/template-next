@@ -1,6 +1,6 @@
 # Next.js Template by Thilina Rathnayaka (A.K.A Edward Hyde)
 
-This Next.js template, created by Thilina Rathnayaka, is designed to kickstart your Next.js projects with essential dependencies and a modern foundation for building web applications using TypeScript. It has been updated to use the `/src/app` directory structure for better organization.
+This Next.js template, created by Thilina, is designed to kickstart your Next.js projects with essential dependencies and a modern foundation for building web applications using TypeScript. It has been updated to use the `/src/app` directory structure for better organization.
 
 ## Features
 
@@ -54,14 +54,23 @@ To create a new project using this template, follow these steps:
 
 6. Open your browser and visit `http://localhost:3000` to see your new Next.js project in action.
 
+## Additional CLI Features
+### Current Directory Cloning
+
+Template-NEXT allows you to clone the template directly into your working directory, useful for adding it to existing project structures. Run:
+```bash
+npx @edward-hyde/template-next .
+```
+The CLI will walk you through the setup process, offering clearer instructions and tailored steps based on your choices.
+
 ## Contributing
 
 If you encounter any issues with the template or have suggestions for improvements, feel free to contribute by submitting pull requests or opening issues on the GitHub repository.
 
-For more information, visit the [GitHub repository](https://github.com/Edward-126/template-next).
+For more information, visit the [Getting Started Guide](https://its-thilina-blog.vercel.app/blog/template-next-get-started).
 
 ---
 
 Contact Me: [Gmail](mailto:edwardhyde20126@gmail.com)
 
-&copy; 2024 Edward Hyde
+&copy; 2024 Thilina R.
