@@ -25,12 +25,12 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               <Button asChild>
-                <Link href="https://its-thilina-blog.vercel.app/blog/template-next-get-started">
+                <Link href="https://blog.thilina.dev/blog/template-next-get-started">
                   Get Started <ArrowRight className="ml-2 size-5" />
                 </Link>
               </Button>
               <Button variant={"outline"} asChild>
-                <Link href="https://its-thilina-blog.vercel.app/blog/template-next-changelog-2-6">
+                <Link href="https://blog.thilina.dev/blog/template-next-changelog-2-6">
                   ChangeLog <LucideFileCog className="ml-2 size-5" />
                 </Link>
               </Button>
